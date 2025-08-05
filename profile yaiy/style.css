@@ -22,3 +22,10 @@ header{
 nav a:hover{
     color: rgb(244, 100, 179);
 }
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 161, 219);
+    padding: 3rem;
+}
