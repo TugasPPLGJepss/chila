@@ -9,6 +9,7 @@ nav ul{
     display: flex;
     list-style: none;
     gap: 1.5rem;
+    margin: 5px;
 }
 nav a{
     text-decoration: none;
@@ -18,14 +19,100 @@ header{
     background-color: rgb(245, 167, 179);
     color: ghostwhite;
     padding: 1rem;
+    height: 2rem;
 }
 nav a:hover{
-    color: rgb(244, 100, 179);
+    color: rgb(252, 235, 215);
 }
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(229, 161, 219);
+   background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(252, 248, 197, 1) 100%);
     padding: 3rem;
 }
+.hero img{
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+
+
+         .btn-grad {background-image: linear-gradient(to right, #FFAFBD 0%, #ffc3a0  51%, #FFAFBD  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            text-decoration: none;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+         h1,p {
+            margin: 0%;
+         }
+
+         .skilsyaiy{
+            display: flex;
+            justify-content: center;
+
+         }
+         .btn-grad1 {background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1  51%, #ee9ca7  100%)}
+         .btn-grad1 {
+            width: 10rem;
+            height: 1rem;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: rgb(76, 75, 75);            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            text-decoration: none;
+          }
+
+          .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #4b4848;
+            text-decoration: none;
+          }
+         .projekcard {
+            background-color: #f9f2d0;
+            padding: 10px;
+            border-left: 5px solid #ee9ca7;
+            border-radius: 5px;
+            
+
+         }
+         .sosialicon{
+            font-size: 2rem;
+            margin: 5rem;
+            margin-right: 15px;
+            color: #f9f2d0;
+            transition: 0.3s;
+         }
+         .sosialicon i:hover {
+            color: #ee9ca7;
+         }
+         footer {
+            text-align: center;
+            padding: 1rem;
+            background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(252, 248, 197, 1) 100%);
+            margin-top: 2rem;
+         }
