@@ -103,11 +103,10 @@ background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(252, 248, 19
             font-size: 2rem;
             margin: 5rem;
             margin-right: 15px;
-            color: #f9f2d0;
-            transition: 0.3s;
+            color: #fdb1f0;
          }
          .sosialicon i:hover {
-            color: #ee9ca7;
+            color: #fb5c71;
          }
          footer {
             text-align: center;
